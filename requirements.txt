@@ -1,1 +1,9 @@
- 
+ numpy
+ pandas
+ seaborn
+ scikit-learn
+ neattext
+ notebook
+ jupyter
+ ipykrnel
+ eli5
