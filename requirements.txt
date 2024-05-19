@@ -1,9 +1,12 @@
- numpy
- pandas
- seaborn
- scikit-learn
- neattext
- notebook
- jupyter
- ipykrnel
- eli5
+numpy
+pandas
+seaborn
+scikit-learn
+matplotlib
+neattext
+nltk
+notebook
+wordcloud
+streamlit
+eli5
+joblib
