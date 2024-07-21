@@ -1,22 +1,69 @@
-# Détection d'émotions à partir de données de tweets
 
-Ce projet vise à détecter les émotions à partir de données de tweets en utilisant des techniques de classification de réseaux neuronaux (RN). Il comprend un ensemble complet de prétraitements des données et un pipeline de plusieurs algorithmes pour optimiser les performances du modèle.
+## <center>Analyse des sentiments et des émotions sur les tweets</center>
 
-## Fonctionnalités principales :
+<p align="center">
+  <img src="image.png" alt="tweet image" width="300"/>
+</p>
 
-- **Prétraitement des données :** Les données de tweets sont prétraitées pour nettoyer les bruits, retirer les balises HTML, les mentions d'utilisateurs, etc.
-- **Classification de réseaux neuronaux :** Un modèle de classification de réseaux neuronaux est entraîné à détecter les émotions à partir des tweets.
-- **Pipeline d'algorithmes :** Un pipeline est construit en combinant plusieurs algorithmes pour améliorer les performances de classification.
-- **Création d'une application :** Une application est développée pour permettre aux utilisateurs de détecter les émotions à partir de leurs propres tweets ou de tout autre texte qu'ils souhaitent analyser.
+## Description du projet
 
-## Technologies utilisées :
+## Contexte
 
-- Python
-- TensorFlow/Keras
-- Scikit-learn
-- Flask (pour l'application web)
+Les réseaux sociaux, et en particulier Twitter, sont des plateformes essentielles où les utilisateurs expriment leurs sentiments et émotions au quotidien. Analyser les tweets peut fournir des informations précieuses sur l’humeur collective et les préoccupations des gens. Ce projet utilise un dataset de tweets disponible sur Kaggle pour explorer les relations entre les sentiments exprimés dans les tweets et les émotions des utilisateurs.
 
-## Comment utiliser ce projet :
+## Dataset
+
+Le dataset utilisé pour ce projet est disponible sur Kaggle :
+- **[Tweet Sentiment and Emotion Analysis](https://www.kaggle.com/datasets/subhajournal/tweet-sentiment-and-emotion-analysis)**
+
+## Objectif
+
+Le projet a pour but de développer un modèle de machine learning capable de :
+
+1. **Classifier les Sentiments** : Déterminer si un tweet exprime un sentiment **négatif**, **neutre** ou **positif**.
+2. **Identifier les Émotions** : Catégoriser les émotions des utilisateurs en **heureux**, **anxieux**, **stressé** ou **déprimé**.
+
+## Méthodologie
+
+Le projet est structuré autour des étapes suivantes :
+
+1. **Préparation des Données** :
+   - Chargement et manipulation des données en utilisant **pandas** et **numpy**.
+   - Nettoyage des données et prétraitement du texte pour une analyse efficace.
+
+2. **Analyse des Textes** :
+   - Nettoyage et normalisation des textes avec **neattext**.
+   - Transformation du texte en vecteurs numériques avec **CountVectorizer** et **TFIDFTransformer**.
+
+3. **Modélisation** :
+   - Entraînement et évaluation de plusieurs modèles de classification avec **GridSearchCV** pour l'optimisation des hyperparamètres.
+
+4. **Évaluation des Modèles** :
+   - Comparaison des performances des modèles en utilisant des métriques telles que la précision, le rappel, et la F-mesure.
+
+5. **Visualisation des Données** :
+   - Création de graphiques avec **Seaborn**, **Matplotlib**, et **WordCloud**.
+
+6. **Développement de l'Application** :
+   - Développement d'une application web interactive avec **Streamlit**.
+
+## Librairies Utilisées
+
+- **pandas**, **numpy**
+- **neattext**
+- **CountVectorizer**, **TFIDFTransformer**
+- **RandomForestClassifier**, **SVC**, **MultinomialNB**, **LogisticRegression**, **KNeighborsClassifier**
+- **GridSearchCV**
+- **Seaborn**, **Matplotlib**
+- **WordCloud**
+- **Streamlit**
+
+## Conclusion
+
+En utilisant des techniques avancées de traitement du langage naturel et des algorithmes de machine learning, ce projet vise à fournir des outils puissants pour analyser les sentiments et émotions des tweets. L'application développée permettra une exploration interactive des résultats, facilitant ainsi l'interprétation des données textuelles et la compréhension des sentiments et émotions exprimés sur Twitter.
+
+
+### Comment utiliser l'Application :
 
 1. Cloner ce dépôt sur votre machine locale.
 2. Installer les dépendances en utilisant `pip install -r requirements.txt`.
@@ -24,7 +71,8 @@ Ce projet vise à détecter les émotions à partir de données de tweets en uti
 4. Déployer l'application en exécutant `python app.py`.
 5. Accéder à l'application via votre navigateur web à l'adresse http://localhost:5000.
 
-N'hésitez pas à contribuer en ouvrant des issues ou en proposant des pull requests pour améliorer ce projet !
 
 
 
+
+[Lien du projet sur Github](https://www.github.com/HMourad2023) 
