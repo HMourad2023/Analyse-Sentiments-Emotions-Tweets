@@ -68,11 +68,5 @@ En utilisant des techniques avancées de traitement du langage naturel et des al
 1. Cloner ce dépôt sur votre machine locale.
 2. Installer les dépendances en utilisant `pip install -r requirements.txt`.
 3. Entraîner le modèle en exécutant le script `train_model.py`.
-4. Déployer l'application en exécutant `python app.py`.
+4. Déployer l'application en exécutant `streamlit run app.py`.
 5. Accéder à l'application via votre navigateur web à l'adresse http://localhost:5000.
-
-
-
-
-
-[Lien du projet sur Github](https://www.github.com/HMourad2023) 
