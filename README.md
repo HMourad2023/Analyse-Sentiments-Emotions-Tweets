@@ -20,8 +20,17 @@ Le dataset utilisé pour ce projet est disponible sur Kaggle :
 
 Le projet a pour but de développer un modèle de machine learning capable de :
 
-1. **Classifier les Sentiments** : Déterminer si un tweet exprime un sentiment **négatif**, **neutre** ou **positif**.
-2. **Identifier les Émotions** : Catégoriser les émotions des utilisateurs en **heureux**, **anxieux**, **stressé** ou **déprimé**.
+1. **Classifier les Sentiments** :
+   Déterminer si un tweet exprime un sentiment :
+     - **négatif**
+     - **neutre**
+     - **positif**.
+3. **Identifier les Émotions** :
+   Catégoriser les émotions des utilisateurs en :
+   - **heureux**
+   - **anxieux**
+   - **stressé**
+   - **déprimé**
 
 ## Méthodologie
 
