@@ -2,7 +2,7 @@
 ## <center>Analyse des sentiments et des émotions sur les tweets</center>
 
 <p align="center">
-  <img src="image.png" alt="tweet image" width="300"/>
+  <img src="image.png" alt="tweet image" width="600"/>
 </p>
 
 ## Description du projet
